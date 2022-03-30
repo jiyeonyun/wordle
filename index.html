@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Wordle</title>
+</head>
+<body>
+    <div class="wrap">
+        <h1 class="game_title">😈 Wordle 👿</h1>
+        <div class="modal">
+            <div class="playModal">
+                <h1 class="modal_title">start?</h1>
+            </div>
+        </div>
+        <div class="result_modal hide">
+                <h1 class="result_modal_result">🥳congratulations🥳</h1>
+                <h1 class="resultmodal_title">replay?</h1>
+        </div>
+        <div class="null_modal hide">
+            <h3>please type answer</h3>
+        </div>
+        <div class="game hide">
+            <form action="#">
+            <input type="text" id="n1" maxlength="1" class="answer" autocomplete="off">
+            <input type="text" id="n2" maxlength="1" class="answer" autocomplete="off">
+            <input type="text" id="n3" maxlength="1" class="answer" autocomplete="off">
+            <input type="text" id="n4" maxlength="1" class="answer" autocomplete="off">
+            <input type="text" id="n5" maxlength="1" class="answer" autocomplete="off">
+            </form>
+            <button class="submit">Enter</button>
+        </div>
+        <div class="keyBorad hide">
+            <div class="line1">
+                <div class="line1_left">
+                    <span class="key">q</span>
+                    <span class="key">w</span>
+                    <span class="key">e</span>
+                    <span class="key">r</span>
+                    <span class="key">t</span>
+                    <span class="key">y</span>
+                    </div>
+                    <div class="line1_right">
+                        <span class="key">u</span>
+                        <span class="key">i</span>
+                        <span class="key">o</span>
+                        <span class="key">p</span>
+                    </div>
+            </div>
+            <div class="line2">
+                <div class="line2_left">
+                    <span class="key">a</span>
+                    <span class="key">s</span>
+                    <span class="key">d</span>
+                    <span class="key">f</span>
+                    <span class="key">g</span>
+                </div>
+                <div class="line2_right">
+                    <span class="key">h</span>
+                    <span class="key">j</span>
+                    <span class="key">k</span>
+                    <span class="key">l</span>
+                </div>
+            </div>
+            <div class="line3">
+                <div class="line3_left">
+                    <span class="key">z</span>
+                    <span class="key">x</span>
+                    <span class="key">c</span>
+                    <span class="key">v</span>
+                </div>
+                <div class="line3_right">
+                    <span class="key">b</span>
+                    <span class="key">n</span>
+                    <span class="key">m</span>
+                    <span class="key">🖤</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="index.js"></script>
+</html>
